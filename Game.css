@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size : 4em;
+    color : white;
+    background-color : black;
+    text-align : center;
+}
+.choices {
+    display : flex;
+    margin : 100px;
+    justify-content: center;
+}
+
+.choice {
+    /* background-color : black; */
+    height : 310px;
+    width : 322px;
+    display : flex;
+    margin : 25px;
+    justify-content: center;
+    border-radius : 50%;
+    align-items : center;
+}
+
+.choice:hover {
+    background-color : black;
+    cursor : pointer;
+    animation-delay : 0.5s;
+    transition : 0.5s;
+}
+
+
+img {
+    height : 300px;
+    object-fit : cover;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    border-radius : 50%;
+}
+
+
+#user-score, #comp-score {
+    font-size : 2rem;
+    color : black;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+}
+
+.score-board {
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    margin-top : 50px;
+}
+
+
+.score-board {
+    display : flex;
+    align-items: center;
+    justify-content : center;
+    font-size : 2rem;
+    color : black;
+    gap : 50px;
+}
+
+#user-score, #comp-score {
+    font-size : 4rem;
+}
+.msg-box {
+    display : flex;
+    justify-content: center;
+    align-items : center;
+}
+
+.msg-container {
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    display : inline-block;
+    background-color : black;
+    color : white;
+    margin : 50px;
+    padding : 20px;
+    border-radius : 20px;
+    font-size : 2.5rem;
+
+}
+
+.msg-container:hover {
+    background-color : grey;
+    animation-delay : 0.5s;
+    transition : 0.5s;
+    cursor : pointer;
+}
